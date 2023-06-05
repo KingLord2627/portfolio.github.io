@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Mock-Up</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="top-nav">
+            <div class="nav">
+                <h1><a href="#about">School Of Art</a></h1>
+                <a href="#about">About the School</a>
+                <a href="#gallery">Gallery</a>
+                <a href="#contact">Contact US</a>
+            </div>
+        </div>        
+    </header>
+
+    <div class="about" id="about">
+        <div class="container">
+            <div class="box">
+                <h2>School of Art</h2>
+                <p>The School of Art is a graduate school that confers MFAs in Graphic Design, Painting/Printmaking, Photography, and Sculpture; and offers undergraduate-level art courses to Yale College students. Our website exists as an ongoing collaborative experiment in digital publishing and information sharing. It functions as a wiki—all members of the School of Art community have the ability to add new, and edit most existing content.</p>
+            </div>
+            <div class="box">
+                <h2>Website</h2>
+                <p>This website exists as an ongoing collaborative experiment in digital publishing and information sharing. Because this website functions as a wiki, all members of the School of Art community—graduate students, faculty, staff, and alums—have the ability to add new content and pages, and to edit most of the site’s existing content.
+                    Content is the property of its various authors. When you contribute to this site, you agree to abide by Yale University academic and network use policy, and to act as a responsible member of our community.
+                </p>
+            </div>
+        </div>
+
+        <button><a href="#gallery"> See Gallery</a></button>
+    </div>
+
+    <div class="gallery" id="gallery">
+        <h1>Gallery</h1>
+        <div class="images">
+            <img src="Images/image1.jpg" alt="Artwork 1">
+            <img src="Images/image2.jpg" alt="Artwork 2">
+            <img src="Images/image3.jpg" alt="Artwork 3">
+        </div>
+        <div class="images">
+            <img src="Images/image4.jpg" alt="Artwork 4">
+            <img src="Images/image5.jpg" alt="Artwork 5">
+            <img src="Images/image6.jpg" alt="Artwork 6">
+        </div>
+        <div class="images">
+            <img src="Images/image4.jpg" alt="Artwork 4">
+            <img src="Images/image5.jpg" alt="Artwork 5">
+            <img src="Images/image6.jpg" alt="Artwork 6">
+        </div>
+        <div class="images">
+            <img src="Images/image4.jpg" alt="Artwork 4">
+            <img src="Images/image5.jpg" alt="Artwork 5">
+            <img src="Images/image6.jpg" alt="Artwork 6">
+        </div>
+    </div>
+
+    <div class="contact" id="contact">
+        <div class="contc">
+            <h1>Contact us</h1>
+            <form action="action_page.php">
+              <label for="fname">First Name</label>
+              <input type="text" id="fname" name="firstname" placeholder="Your name..">
+      
+              <label for="lname">Last Name</label>
+              <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+            
+              <label for="country">Country</label>
+              <select id="country" name="country">
+                <option value="australia">Australia</option>
+                <option value="canada">Canada</option>
+                <option value="usa">USA</option>
+                <option value="usa">Philippines</option>
+                <option value="usa">Japan</option>
+                <option value="usa">Korea</option>
+              </select>
+
+          
+      
+              <label for="subject">Subject</label>
+              <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+              <input type="file" id="myFile" name="filename">
+              <input type="submit" value="Submit">
+      
+            </form>
+        </div>
+    </div>
+
+    
+
+</body>
+<footer>
+    <h1>© 2023 School Of Art. All rights reserved.</h1>
+</footer>
+</html>
