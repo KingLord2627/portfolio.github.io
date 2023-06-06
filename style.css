@@ -72,7 +72,7 @@ body{
     flex-direction: column;
     padding-top: 10rem;
     padding-bottom: 20rem;
-    background-image: url(portfolio.github.io/backgr.jpg);
+    background-image: url(backgr.jpg);
     background-size: 120rem 70rem;
 }
 
